@@ -1,5 +1,5 @@
 services :
   flaskapp :
-    build : .
+    image : krunal2401/myflaskapp .
     ports :
       - "5000:5000"
